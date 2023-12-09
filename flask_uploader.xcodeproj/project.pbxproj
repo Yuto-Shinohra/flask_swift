@@ -14,6 +14,7 @@
 		44277C9D2B23F7940012E271 /* flask_uploaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44277C9C2B23F7940012E271 /* flask_uploaderTests.swift */; };
 		44277CA72B23F7940012E271 /* flask_uploaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44277CA62B23F7940012E271 /* flask_uploaderUITests.swift */; };
 		44277CA92B23F7940012E271 /* flask_uploaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44277CA82B23F7940012E271 /* flask_uploaderUITestsLaunchTests.swift */; };
+		44FEC2272B24797400F4A198 /* ScannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEC2262B24797400F4A198 /* ScannerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		44277CA22B23F7940012E271 /* flask_uploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flask_uploaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44277CA62B23F7940012E271 /* flask_uploaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flask_uploaderUITests.swift; sourceTree = "<group>"; };
 		44277CA82B23F7940012E271 /* flask_uploaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flask_uploaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44FEC2262B24797400F4A198 /* ScannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		44277C8A2B23F7910012E271 /* flask_uploader */ = {
 			isa = PBXGroup;
 			children = (
+				44FEC2262B24797400F4A198 /* ScannerModel.swift */,
 				44277C8B2B23F7910012E271 /* flask_uploaderApp.swift */,
 				44277C8D2B23F7910012E271 /* ContentView.swift */,
 				44277C8F2B23F7940012E271 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			files = (
 				44277C8E2B23F7910012E271 /* ContentView.swift in Sources */,
 				44277C8C2B23F7910012E271 /* flask_uploaderApp.swift in Sources */,
+				44FEC2272B24797400F4A198 /* ScannerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +426,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"flask_uploader/Preview Content\"";
+				DEVELOPMENT_TEAM = S2T39PPMT9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +456,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"flask_uploader/Preview Content\"";
+				DEVELOPMENT_TEAM = S2T39PPMT9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
